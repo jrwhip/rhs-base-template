@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repp: jrwhip/rhs-base-template
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
